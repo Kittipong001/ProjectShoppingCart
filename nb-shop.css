@@ -65,7 +65,7 @@ header nav{
 
 header h1{
     font-size: 45px;
-    color: #561C24;
+    color: #e21061;
     font-weight: 800;
     text-transform: uppercase;
     letter-spacing: 5px;
@@ -79,7 +79,7 @@ header ul{
 
 header a{
     display: block;
-    color: #561C24;
+    color: #e21061;
     text-decoration: none;
     
     border-radius: .2rem;

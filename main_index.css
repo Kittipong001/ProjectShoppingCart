@@ -12,9 +12,11 @@
     font-family: "Poppins", sans-serif;
 }
 
-body{
-    background: var(--bg);
-    color: white;
+body {
+    background-image: url('./product_img/pinkblack.png'); /* ใส่ที่อยู่ของรูปภาพ */
+    background-size: cover; /* ปรับขนาดให้เต็มหน้าจอ */
+    background-position: center; /* จัดให้อยู่ตรงกลาง */
+    background-repeat: no-repeat; /* ไม่ให้รูปซ้ำ */
 }
 
 header nav{
@@ -29,7 +31,7 @@ header nav{
 
 header h1{
     font-size: 45px;
-    color: #561C24;
+    color: #55011d;
     font-weight: 800;
     text-transform: uppercase;
     letter-spacing: 5px;
@@ -43,7 +45,7 @@ header ul{
 
 header a{
     display: block;
-    color: #561C24;
+    color: #55011d;
     text-decoration: none;
     
     border-radius: .2rem;

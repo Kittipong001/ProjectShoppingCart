@@ -1,0 +1,94 @@
+/* ตั้งค่าพื้นฐาน */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background: rgb(0, 0, 0);
+    position: absolute;
+    width: 100%;
+}
+
+.logo {
+    font-size: 24px;
+    color: #e21061;
+    font-weight: bold;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #e21061;
+    font-weight: bold;
+}
+
+/* Hero Section */
+.hero {
+    background: url('product_img/pinkblack.png') no-repeat center/cover;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.hero-content h2 {
+    font-size: 50px;
+    color: #e21061;
+}
+
+.hero-content p {
+    font-size: 18px;
+    color: #e21061;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: #e21061;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+/* Product Section */
+.products {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 50px;
+    background: white;
+}
+
+.product-card {
+    text-align: center;
+}
+
+.product-card img {
+    width: 200px;
+    border-radius: 10px;
+}
+
+.product-card h3 {
+    margin-top: 10px;
+}

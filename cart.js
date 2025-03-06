@@ -178,7 +178,7 @@ function generateCartReceipt() {
           background-color: #f2f2f2;
         }
       </style>
-      <p>SANGKONG SHOP!</p>
+      <p>ARTTOYS SHOP!</p>
       <h2>Cart Receipt</h2>
       <table>
         <thead>
